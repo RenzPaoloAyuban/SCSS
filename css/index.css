@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+body header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+}
+body header div.logo-image img {
+  margin-left: 25px;
+  width: 100px;
+  height: 45px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+body header nav ul {
+  list-style: none;
+}
+body header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav ul li a:hover {
+  color: blueviolet;
+}
+body header div.signin-buttons {
+  margin-right: 75px;
+}
+body header div.signin-buttons button {
+  padding: 10px;
+  width: 70px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(236, 227, 227);
+  cursor: pointer;
+}
+body header div.signin-buttons button:hover {
+  background-color: blueviolet;
+  color: #FFFFFF;
+}
+body main section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+body main section div.card {
+  width: 450px;
+  display: grid;
+  place-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.48);
+}
+body main section div.card div.header-card {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+body main section div.card div.input-card form div.separator {
+  margin: 25px 0 0 0;
+}
+body main section div.card div.input-card form div.separator input {
+  padding: 8px 8px 8px 12px;
+  width: 410px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgba(211, 203, 203, 0.479);
+  height: 25px;
+  margin-top: 5px;
+}
+body main section div.card div.input-card form div.remember-me {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+}
+body main section div.card div.input-card form div.remember-me input {
+  background-color: blueviolet;
+}
+body main section div.card div.input-card form div.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body main section div.card div.input-card form div.buttons button.sign-in {
+  height: 40px;
+  font-size: 17px;
+  background-color: blueviolet;
+  color: #FFFFFF;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body main section div.card div.input-card form div.buttons div.sign-in-platforms {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+body main section div.card div.input-card form div.buttons div.sign-in-platforms button {
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 212px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+body main section div.card div.input-card form div.buttons div.sign-in-platforms button img {
+  width: 20px;
+  height: 20px;
+}
+body main section div.card div.footer-card {
+  margin: 30px 0 10px 0;
+  font-size: 12px;
+}
+body main section div.card div.footer-card a {
+  text-decoration: none;
+  color: blueviolet;
+}/*# sourceMappingURL=index.css.map */
